@@ -1,0 +1,27 @@
+Format:
+- '&lSurvivalGames'
+- '%status%'
+- '&nMap: %map%'
+- '%online%/%max%'
+Searching:
+- '&l----------'
+- '&fSEARCHING'
+- '&fGAMES'
+- '&l----------'
+Status:
+  Loading:
+    glass: 11
+    msg: '&cLoading'
+  Waiting:
+    glass: 5
+    msg: '&aWaiting'
+  Starting:
+    glass: 4
+    msg: '&6Starting'
+  InGame:
+    glass: 14
+    msg: '&4In Game'
+  Full:
+    glass: 10
+    msg: '&5Full'
+Signs:

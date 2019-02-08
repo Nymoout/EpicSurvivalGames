@@ -1,0 +1,14 @@
+name: EpicSurvivalGames
+version: ${project.version}
+main: com.isnakebuzz.survivalgames.Main
+authors: [iSnakeBuzz_]
+description: A simple SurvivalGames
+website: www.isnakebuzz.com/
+softdepend: ['PlaceholderAPI', 'LeaderHeads']
+commands:
+  SurvivalGames:
+    description: A principal command of survivalgames.
+    aliases: ['sg', 'survivalg', 'sgames']
+  Leave:
+    description: Leave of arenas
+    aliases: ['salir', 'quit']

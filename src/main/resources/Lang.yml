@@ -1,0 +1,149 @@
+# # # # # # # # # # # # # # # # # # # #
+#                                     #
+#     Thanks for use SurvivalGames    #
+#                                     #
+# # # # # # # # # # # # # # # # # # # #
+
+NoPerms: "&aYou don't have permissions to use this"
+JoinMessage: '&5%player% joined the game. %playing%/%max%'
+LeaveMessage: '&6%player% left the game. %playing%/%max%'
+Arena:
+  ingame: "&cThe arena is ingame"
+  full: '&cThe arena is full'
+Grace:
+  start: '&eThere is a %time% seconds grace period before PvP is enbled'
+  finish: '&eThe grace period has ended - PvP is enabled'
+WinMessage:
+- ''
+- '&eCongratulations &a%player%&e for won the game'
+- ''
+VoteBC:
+  Types:
+    CHEST: 'Item Types'
+    TIME: 'Time Types'
+    HEALTH: 'Health Types'
+    Chests:
+      BASIC: 'Basic Items'
+      NORMAL: 'Normal Items'
+      OVERPOWERED: 'Overpowered Items'
+    Time:
+      DAY: 'Day Time'
+      SUNSET: 'Sunset Time'
+      NIGHT: 'Night Time'
+    Health:
+      HARD: 'Hard Health'
+      NORMAL: 'Normal Health'
+      DOUBLE: 'Double Health'
+      TRIPLE: 'Triple Health'
+  Message: '&5%player% &6voted for &a%type%&6! &e%votes% votes!'
+  Already: '&cYou have already voted for %type%!'
+Votes:
+  Chest:
+    BASIC: '&6Selected &aBasic Items &6items! If was voted for the most!'
+    NORMAL: '&6Selected &aNormal Items &6items! If was voted for the most!'
+    OVERPOWERED: '&6Selected &aOverpowered Items! &6items If was voted for the most!'
+    NOBODY: '&6Selected &aNormal Items &6items due to nobody has voted!'
+  Time:
+    DAY: '&6Selected &aDay Time &6time-of-day! If was voted for the most!'
+    SUNSET: '&6Selected &aSunset Time &6time-of-day! If was voted for the most!'
+    NIGHT: '&6Selected &aNight Time &6time-of-day! If was voted for the most!'
+    NOBODY: '&6Selected &aDay Time &6time-of-day due to nobody has voted'
+  Health:
+    HARD: '&6Selected &aHardcore Health &6health! If was voted for the most!'
+    NORMAL: '&6Selected &aNormal Health &6health! If was voted for the most!'
+    DOUBLE: '&6Selected &aDouble Health &6health! If was voted for the most!'
+    TRIPLE: '&6Selected &aTriple Health &6health! If was voted for the most!'
+    NOBODY: '&6Selected &aNormal Health &6health due to nobody has voted'
+Sounds:
+  Cancelled: 'NOTE_PLING;1;0'
+  Starting:
+    ## You can add more and more..
+    5: 'CLICK;1;2'
+    4: 'CLICK;1;2'
+    3: 'CLICK;1;2'
+    2: 'CLICK;1;2'
+    1: 'CLICK;1;2'
+  GameStarting:
+    ## You can add more and more..
+    5: 'CLICK;1;2'
+    4: 'CLICK;1;2'
+    3: 'CLICK;1;2'
+    2: 'CLICK;1;2'
+    1: 'CLICK;1;2'
+Timer:
+  Cancelled: '&cNot enought players.'
+  Starting:
+    ## Here same, you can add more and more and more..
+    60: '&9Survival Games starting 1 minute.'
+    30: '&9Survival Games starting %seconds% seconds.'
+    15: '&9Survival Games starting %seconds% seconds.'
+    10: '&9Survival Games starting %seconds% seconds.'
+    5: '&9Survival Games starting %seconds% seconds.'
+    4: '&9Survival Games starting %seconds% seconds.'
+    3: '&9Survival Games starting %seconds% seconds.'
+    2: '&9Survival Games starting %seconds% seconds.'
+    1: '&9Survival Games starting %seconds% second.'
+  GameStarting:
+    15: '&9Cages open in %seconds% seconds.'
+    10: '&9Cages open in  %seconds% seconds.'
+    5: '&9Cages open in %seconds% seconds.'
+    4: '&9Cages open in %seconds% seconds.'
+    3: '&9Cages open in %seconds% seconds.'
+    2: '&9Cages open in %seconds% seconds.'
+    1: '&9Cages open in %seconds% second.'
+DeathMessages:
+  fall:
+    inflicted: "&a%dead%&e fell to their death while fighting &c%killer%"
+    other: "&a%dead%&e fell to their death"
+  explosion:
+    inflicted: "&a%dead%&e exploded while fighting &c%killer%"
+    other: "&a%dead%&e exploded into a million pieces"
+  cactus:
+    inflicted: "&a%dead%&e was pricked to death while fighting &c%killer%"
+    other: "&a%dead%&e was pricked to death"
+  drown:
+    inflicted: "&a%dead%&e drowned while fighting &c%killer%"
+    other: "&a%dead%&e forgot their scuba tank"
+  fire:
+    inflicted: "&a%dead%&e burnt to a crisp while fighting &c%killer%"
+    other: "&a%dead%&e went up in flames"
+  lava:
+    inflicted: "&a%dead%&e fell into a pool of lava while fighting &c%killer%"
+    other: "&a%dead%&e fell into a pool of lava"
+  lightning:
+    inflicted: "&a%dead%&e was struck by lightning while fighting &c%killer%"
+    other: "&a%dead%&e was struck by lightning"
+  melting:
+    inflicted: "&a%dead%&e melted while fighting &c%killer%"
+    other: "&a%dead%&e melted"
+  projectile:
+    inflicted: "&a%dead%&e was shot by &c%killer%"
+    other: "&a%dead%&e was shot"
+  starvation:
+    inflicted: "&a%dead%&e starved to death while fighting &c%killer%"
+    other: "&a%dead%&e starved to death"
+  suffocation:
+    inflicted: "&a%dead%&e got pushed into a wall while fighting &c%killer%"
+    other: "&a%dead%&e fell into a wall and suffocated"
+  suicide:
+    inflicted: "&a%dead%&e committed suicide while fighting &c%killer%"
+    other: "&a%dead%&e committed suicide"
+  thorns:
+    inflicted: "&a%dead%&e was pricked to death by &c%killer%"
+    other: "&a%dead%&e was pricked to death"
+  void:
+    inflicted: "&a%dead%&e fell into the great abyss while fighting &c%killer%"
+    other: "&a%dead%&e fell into the great abyss"
+  wither:
+    inflicted: "&a%dead%&e withered away while fighting &c%killer%"
+    other: "&a%dead%&e withered away"
+  potion:
+    inflicted: "&a%dead%&e was killed by &c%killer% using a potion"
+    other: "&a%dead%&e died from a potion"
+  entity-attack:
+    inflicted: "&a%dead%&e was killed by &c%killer%"
+    other: "&a%dead%&e died"
+  player-attack:
+    inflicted: "&a%dead%&e was murdered by &c&c%killer%"
+    other: "&a%dead%&e died"
+  other: "&a%dead%&e died"

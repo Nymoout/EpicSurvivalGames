@@ -1,0 +1,12 @@
+Name: 'Test'
+Lobby: ''
+Spectator: ''
+Players:
+  min: 2
+  max: 8
+Border:
+  Size: 250
+  MinSize: 30
+  Time: 120
+Mode: SOLO # SOLO/TEAM
+Spawns:

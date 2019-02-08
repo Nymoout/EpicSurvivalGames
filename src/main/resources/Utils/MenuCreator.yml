@@ -1,0 +1,197 @@
+# # # # # # # # # # # # # # # # # # # #
+#                                     #
+#     Thanks for use SurvivalGames    #
+#                                     #
+# # # # # # # # # # # # # # # # # # # #
+
+MenuCreator:
+  Votes:
+    title: '&aVote!'
+    rows: 3
+    # This menu need this :)
+    update:
+      enabled: true
+      time: 5 # In ticks!
+    items:
+      VoteChests:
+        # 'ID:DATA'
+        item: '54:0'
+        slot: 10
+        amount: 1
+        name: '&6&lItem Types'
+        lore:
+        - '&7Vote for the items you find in the game!'
+        - ''
+        - '&7Total Votes - &a %votes_chests%'
+        # Actions: CMD:SAY TEST, OPEN:TEST, FLYSPEED:0.5, VELOCITY:0.5
+        perms: 'none'
+        action: 'open:ItemTypes'
+      VoteTime:
+        item: '347:0'
+        slot: 13
+        amount: 1
+        name: '&6&lTime Of Day'
+        lore:
+        - '&7Vote for time of day when the game is played!'
+        - ''
+        - '&7Total Votes - &a %votes_times%'
+        perms: 'none'
+        action: 'open:TimeVotes'
+      VoteHealth:
+        item: '38:0'
+        slot: 16
+        amount: 1
+        name: '&6&lHealth Boosts'
+        lore:
+        - '&7Vote for extra health!'
+        - ''
+        - '&7Total Votes - &a %votes_health%'
+        perms: 'none'
+        action: 'open:HealthVotes'
+  ItemTypes:
+    title: '&6&lItem Types'
+    rows: 3
+    # This menu need this :)
+    update:
+      enabled: true
+      time: 5 # In ticks!
+    items:
+      Basic:
+        item: '298:0'
+        slot: 10
+        amount: 1
+        name: '&e&lBasic Items'
+        lore:
+        - '&7Chests will contain:'
+        - '&5Weak Armour'
+        - '&5Low Power Swords'
+        - '&5Basic Food'
+        - ''
+        - '&7Votes - &a %votes_basicChest%'
+        # Vote: basicChest, normalChest, opChest
+        perms: 'sg.vote.chest.basic'
+        action: 'vote:basicChest'
+      Normal:
+        item: '302:0'
+        slot: 13
+        amount: 1
+        name: '&5&lNormal Items'
+        lore:
+        - '&7Chests will contain:'
+        - '&5Random Armour'
+        - '&5Random Swords'
+        - '&5Food & Golden Apples'
+        - ''
+        - '&7Votes - &a%votes_normalChest%'
+        perms: 'sg.vote.chest.normal'
+        action: 'vote:normalChest'
+      Overpowered:
+        item: '310:0'
+        slot: 16
+        amount: 1
+        name: '&4&lOverpowered Items'
+        lore:
+        - '&7Chests will contain:'
+        - '&5Insane Armour'
+        - '&5Dominating Swords'
+        - '&5Huge amounts of Golden Apples'
+        - ''
+        - '&7Votes - &a%votes_opChest%'
+        perms: 'sg.vote.chest.overpowered'
+        action: 'vote:opChest'
+  TimeVotes:
+    title: '&6&lTime Of Day'
+    rows: 3
+    # This menu need this :)
+    update:
+      enabled: true
+      time: 5 # In ticks!
+    items:
+      Day:
+        item: '159:4'
+        slot: 10
+        amount: 1
+        name: '&e&lDay Time'
+        lore:
+        - '&7Vote for Day Time'
+        - ''
+        - '&7Votes - &a%votes_dayTime%'
+        # Vote: dayTime, sunsetTime, nightTime
+        perms: 'sg.vote.time.day'
+        action: 'vote:dayTime'
+      Sunset:
+        item: '159:14'
+        slot: 13
+        amount: 1
+        name: '&4&lSunset'
+        lore:
+        - '&7Vote for Sunset'
+        - ''
+        - '&7Votes - &a%votes_sunsetTime%'
+        perms: 'sg.vote.time.sunset'
+        action: 'vote:sunsetTime'
+      Night:
+        item: '159:7'
+        slot: 16
+        amount: 1
+        name: '&8&lNight Time'
+        lore:
+        - '&7Vote for Night Time'
+        - ''
+        - '&7Votes - &a%votes_nightTime%'
+        perms: 'sg.vote.time.night'
+        action: 'vote:nightTime'
+  HealthVotes:
+    title: '&6&lHealth Boosts'
+    rows: 3
+    # This menu need this :)
+    update:
+      enabled: true
+      time: 5 # In ticks!
+    items:
+      Hard:
+        item: '374:0'
+        slot: 10
+        amount: 1
+        name: '&e&lHardcore Health'
+        lore:
+        - '&7Normal health level'
+        - '&7No health regeneration'
+        - ''
+        - '&7Votes - &a%votes_hardHealth%'
+        # Vote: hardHealth, normalHealth, doubleHealth, tripleHealth
+        perms: 'sg.vote.health.hard'
+        action: 'vote:hardHealth'
+      Normal:
+        item: '373:8261'
+        slot: 12
+        amount: 1
+        name: '&e&lNormal Health'
+        lore:
+        - '&7Normal health level'
+        - ''
+        - '&7Votes - &a%votes_normalHealth%'
+        perms: 'sg.vote.health.normal'
+        action: 'vote:normalHealth'
+      Double:
+        item: '373:8194'
+        slot: 14
+        amount: 1
+        name: '&e&lDouble Health'
+        lore:
+        - '&7Double health level'
+        - ''
+        - '&7Votes - &a%votes_doubleHealth%'
+        perms: 'sg.vote.health.double'
+        action: 'vote:doubleHealth'
+      Triple:
+        item: '384:0'
+        slot: 16
+        amount: 1
+        name: '&e&lTriple Health'
+        lore:
+        - '&7Triple health level'
+        - ''
+        - '&7Votes - &a%votes_tripleHealth%'
+        perms: 'sg.vote.health.triple'
+        action: 'vote:tripleHealth'

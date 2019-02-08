@@ -1,0 +1,28 @@
+# # # # # # # # # # # # # # # # # # # #
+#                                     #
+#     Thanks for use SurvivalGames    #
+#                                     #
+# # # # # # # # # # # # # # # # # # # #
+
+# Modes: MULTIARENA, BUNGEE, LOBBY
+Mode: MULTIARENA
+
+# Only change if you have mode in Bungee
+Bungee:
+  # Name of map game
+  Game: 'Example'
+  Lobby: 'SgLobby'
+
+#Database
+MySQL:
+  enabled: false
+  hostname: "192.168.1.12"
+  port: 3306
+  database: "SurvivalGames"
+  username: "root"
+  password: "snake123"
+
+# Lobby settings
+Lobby:
+  teleportOnJoin: true
+  LobbyScore: true
